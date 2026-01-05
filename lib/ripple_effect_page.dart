@@ -70,6 +70,7 @@ class _RippleEffectPageState extends State<RippleEffectPage>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white54,
       body: Center(
         child: GestureDetector(
           onTapDown: _handleTap,
