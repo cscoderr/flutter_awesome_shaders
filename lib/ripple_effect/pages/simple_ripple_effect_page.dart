@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:flutter_shaders/flutter_shaders.dart';
 
-class RippleEffectPage extends StatefulWidget {
-  const RippleEffectPage({super.key});
+class SimpleRippleEffectPage extends StatefulWidget {
+  const SimpleRippleEffectPage({super.key});
 
   @override
-  State<RippleEffectPage> createState() => _RippleEffectPageState();
+  State<SimpleRippleEffectPage> createState() => _SimpleRippleEffectPageState();
 }
 
-class _RippleEffectPageState extends State<RippleEffectPage>
+class _SimpleRippleEffectPageState extends State<SimpleRippleEffectPage>
     with SingleTickerProviderStateMixin {
   late final Ticker _ticker;
 
@@ -107,7 +107,7 @@ class _RippleEffectPageState extends State<RippleEffectPage>
                 ),
               ),
             );
-          }, assetKey: 'shaders/ripple.frag'),
+          }, assetKey: 'shaders/ripple_effect.frag'),
         ),
       ),
     );

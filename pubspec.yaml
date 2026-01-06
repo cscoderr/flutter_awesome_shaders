@@ -23,4 +23,5 @@ flutter:
     - assets/images/
 
   shaders:
-    - shaders/ripple.frag
+    - shaders/ripple_effect.frag
+    - shaders/ripple_effect2.frag
